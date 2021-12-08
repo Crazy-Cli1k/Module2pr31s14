@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.Page1">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#32B898">
+            <Image Source="Avatar.png" HorizontalOptions="Center" VerticalOptions="Start"/>
+            <Entry Text="Имя пользователя" HorizontalOptions="Center" BindingContext="Name"/>
+            <Entry Text="Пароль" HorizontalOptions="Center" IsPassword="true" BindingContext="Password"/>
+            <Button Text="Вход" HorizontalOptions="Center" VerticalOptions="End" Margin="105, 555, 105, 35" BackgroundColor="#4A799A" Clicked="Button1_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
